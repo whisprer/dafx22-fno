@@ -1,7 +1,23 @@
-# Physical Modeling using Recurrent Neural Networks with Fast Convolutional Layers
+[README.md]
 
-This is the accompanying repository to the paper submission for DAFx20in22, Vienna, Austria by Julian D. Parker, Sebastian J. Schlecht, Rudolf Rabenstein, Maximilian Schäfer. The paper is currently in review.
+# Dafx22-Fno
 
+<p align="center">
+  <a href="https://github.com/whisprer/dafx22-fno/releases"> 
+    <img src="https://img.shields.io/github/v/release/whisprer/dafx22-fno?color=4CAF50&label=release" alt="Release Version"> 
+  </a>
+  <a href="https://github.com/whisprer/dafx22-fno/actions"> 
+    <img src="https://img.shields.io/github/actions/workflow/status/whisprer/dafx22-fno/lint-and-plot.yml?label=build" alt="Build Status"> 
+  </a>
+</p>
 
-## Abstract
-Discrete-time modeling of acoustic, mechanical and electrical systems is a prominent topic in the musical signal processing literature. Such models are mostly derived by discretizing a mathematical model, given in terms of ordinary or partial differential equations, using established techniques. Recent work has applied the techniques of machine-learning to construct such models automatically from data for the case of systems which have lumped states described by scalar values, such as electrical circuits. In this work, we examine how similar techniques are able to construct models of systems which have spatially distributed rather than lumped states. We describe several novel recurrent neural network structures, and show how they can be thought of as an extension of modal techniques. As a proof of concept, we generate synthetic data for three physical systems and show that the proposed network structures can be trained with this data to reproduce the behavior of these systems. 
+![Commits](https://img.shields.io/github/commit-activity/m/whisprer/dafx22-fno?label=commits) 
+![Last Commit](https://img.shields.io/github/last-commit/whisprer/dafx22-fno) 
+![Issues](https://img.shields.io/github/issues/whisprer/dafx22-fno) 
+[![Version](https://img.shields.io/badge/version-3.1.1-blue.svg)](https://github.com/whisprer/dafx22-fno) 
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+<p align="center">
+  <img src="dafx22-fno-banner.png" width="850" alt="Dafx22-Fno Banner">
